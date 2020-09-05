@@ -162,7 +162,7 @@ def main():
 
 	qnt = menu()
 	#Put here the ip addres
-	dest_ip = '192.168.0.1' # ip que deseja atacar
+	dest_ip = '192.168.0.14' # ip que deseja atacar
 
 	for i in range(0, qnt):
 		ataque.append(Thread(target = attack, args = [i, dest_ip]))
